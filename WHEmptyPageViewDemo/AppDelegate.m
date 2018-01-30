@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 
+#import "MainTabVC.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    //设置主window
+    MainTabVC *vcMainTab = [[MainTabVC alloc] init];
+    self.window.rootViewController = vcMainTab;
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

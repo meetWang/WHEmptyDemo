@@ -15,6 +15,16 @@
 		3E735C8520200FAF000EE1A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E735C8420200FAF000EE1A8 /* main.m */; };
 		3E735C8F20200FB0000EE1A8 /* WHEmptyPageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E735C8E20200FB0000EE1A8 /* WHEmptyPageViewDemoTests.m */; };
 		3E735C9A20200FB0000EE1A8 /* WHEmptyPageViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E735C9920200FB0000EE1A8 /* WHEmptyPageViewDemoUITests.m */; };
+		3E735CAA20201276000EE1A8 /* WHNetWorkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E735CA920201276000EE1A8 /* WHNetWorkStatus.m */; };
+		3E735CAE20201296000EE1A8 /* DSReachability..m in Sources */ = {isa = PBXBuildFile; fileRef = 3E735CAC20201296000EE1A8 /* DSReachability..m */; };
+		3E735CB5202013E7000EE1A8 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E735CB4202013E7000EE1A8 /* BaseVC.m */; };
+		3E735CBE20201450000EE1A8 /* FirstLevelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E735CBD20201450000EE1A8 /* FirstLevelVC.m */; };
+		3E735CC120201461000EE1A8 /* SecondLevelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E735CC020201461000EE1A8 /* SecondLevelVC.m */; };
+		3E735CC4202015D3000EE1A8 /* MainTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E735CC3202015D3000EE1A8 /* MainTabVC.m */; };
+		3E735CC720201632000EE1A8 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E735CC620201631000EE1A8 /* HomeVC.m */; };
+		3E735CCA2020163E000EE1A8 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E735CC92020163E000EE1A8 /* MineVC.m */; };
+		3E735CD020201CCA000EE1A8 /* UIView+WHEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E735CCF20201CCA000EE1A8 /* UIView+WHEmpty.m */; };
+		C0FC90667599041E3EEF27FF /* libPods-WHEmptyPageViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9937084192686A9D873DFA /* libPods-WHEmptyPageViewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E9937084192686A9D873DFA /* libPods-WHEmptyPageViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WHEmptyPageViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E735C7220200FAF000EE1A8 /* WHEmptyPageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHEmptyPageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E735C7520200FAF000EE1A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E735C7620200FAF000EE1A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,26 @@
 		3E735C9520200FB0000EE1A8 /* WHEmptyPageViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHEmptyPageViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E735C9920200FB0000EE1A8 /* WHEmptyPageViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHEmptyPageViewDemoUITests.m; sourceTree = "<group>"; };
 		3E735C9B20200FB0000EE1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E735CA820201276000EE1A8 /* WHNetWorkStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHNetWorkStatus.h; sourceTree = "<group>"; };
+		3E735CA920201276000EE1A8 /* WHNetWorkStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHNetWorkStatus.m; sourceTree = "<group>"; };
+		3E735CAC20201296000EE1A8 /* DSReachability..m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSReachability..m; sourceTree = "<group>"; };
+		3E735CAD20201296000EE1A8 /* DSReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSReachability.h; sourceTree = "<group>"; };
+		3E735CB3202013E7000EE1A8 /* BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		3E735CB4202013E7000EE1A8 /* BaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		3E735CBC20201450000EE1A8 /* FirstLevelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstLevelVC.h; sourceTree = "<group>"; };
+		3E735CBD20201450000EE1A8 /* FirstLevelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstLevelVC.m; sourceTree = "<group>"; };
+		3E735CBF20201461000EE1A8 /* SecondLevelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondLevelVC.h; sourceTree = "<group>"; };
+		3E735CC020201461000EE1A8 /* SecondLevelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondLevelVC.m; sourceTree = "<group>"; };
+		3E735CC2202015D3000EE1A8 /* MainTabVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabVC.h; sourceTree = "<group>"; };
+		3E735CC3202015D3000EE1A8 /* MainTabVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabVC.m; sourceTree = "<group>"; };
+		3E735CC520201631000EE1A8 /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		3E735CC620201631000EE1A8 /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		3E735CC82020163E000EE1A8 /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		3E735CC92020163E000EE1A8 /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		3E735CCE20201CCA000EE1A8 /* UIView+WHEmpty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WHEmpty.h"; sourceTree = "<group>"; };
+		3E735CCF20201CCA000EE1A8 /* UIView+WHEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WHEmpty.m"; sourceTree = "<group>"; };
+		47B00B5DDA1D9CFE01EB36BD /* Pods-WHEmptyPageViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHEmptyPageViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHEmptyPageViewDemo/Pods-WHEmptyPageViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7E74E515EE863689283604D1 /* Pods-WHEmptyPageViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHEmptyPageViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHEmptyPageViewDemo/Pods-WHEmptyPageViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0FC90667599041E3EEF27FF /* libPods-WHEmptyPageViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +117,8 @@
 				3E735C8D20200FB0000EE1A8 /* WHEmptyPageViewDemoTests */,
 				3E735C9820200FB0000EE1A8 /* WHEmptyPageViewDemoUITests */,
 				3E735C7320200FAF000EE1A8 /* Products */,
+				D762053467AD16C4A46CD327 /* Pods */,
+				6CD8F8168A4CEB1FBE0BB1D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +135,11 @@
 		3E735C7420200FAF000EE1A8 /* WHEmptyPageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3E735CB220201372000EE1A8 /* MainTabVC */,
+				3E735CAF20201342000EE1A8 /* BaseVC */,
+				3E735CB020201342000EE1A8 /* Controllers */,
+				3E735CB120201342000EE1A8 /* TipView */,
+				3E735CA720201258000EE1A8 /* WHStatus */,
 				3E735C7520200FAF000EE1A8 /* AppDelegate.h */,
 				3E735C7620200FAF000EE1A8 /* AppDelegate.m */,
 				3E735C7820200FAF000EE1A8 /* ViewController.h */,
@@ -132,6 +171,84 @@
 			path = WHEmptyPageViewDemoUITests;
 			sourceTree = "<group>";
 		};
+		3E735CA720201258000EE1A8 /* WHStatus */ = {
+			isa = PBXGroup;
+			children = (
+				3E735CA820201276000EE1A8 /* WHNetWorkStatus.h */,
+				3E735CA920201276000EE1A8 /* WHNetWorkStatus.m */,
+				3E735CAB20201296000EE1A8 /* Reachability */,
+			);
+			path = WHStatus;
+			sourceTree = "<group>";
+		};
+		3E735CAB20201296000EE1A8 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3E735CAC20201296000EE1A8 /* DSReachability..m */,
+				3E735CAD20201296000EE1A8 /* DSReachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		3E735CAF20201342000EE1A8 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				3E735CB3202013E7000EE1A8 /* BaseVC.h */,
+				3E735CB4202013E7000EE1A8 /* BaseVC.m */,
+				3E735CBC20201450000EE1A8 /* FirstLevelVC.h */,
+				3E735CBD20201450000EE1A8 /* FirstLevelVC.m */,
+				3E735CBF20201461000EE1A8 /* SecondLevelVC.h */,
+				3E735CC020201461000EE1A8 /* SecondLevelVC.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		3E735CB020201342000EE1A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E735CC520201631000EE1A8 /* HomeVC.h */,
+				3E735CC620201631000EE1A8 /* HomeVC.m */,
+				3E735CC82020163E000EE1A8 /* MineVC.h */,
+				3E735CC92020163E000EE1A8 /* MineVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3E735CB120201342000EE1A8 /* TipView */ = {
+			isa = PBXGroup;
+			children = (
+				3E735CCE20201CCA000EE1A8 /* UIView+WHEmpty.h */,
+				3E735CCF20201CCA000EE1A8 /* UIView+WHEmpty.m */,
+			);
+			path = TipView;
+			sourceTree = "<group>";
+		};
+		3E735CB220201372000EE1A8 /* MainTabVC */ = {
+			isa = PBXGroup;
+			children = (
+				3E735CC2202015D3000EE1A8 /* MainTabVC.h */,
+				3E735CC3202015D3000EE1A8 /* MainTabVC.m */,
+			);
+			path = MainTabVC;
+			sourceTree = "<group>";
+		};
+		6CD8F8168A4CEB1FBE0BB1D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E9937084192686A9D873DFA /* libPods-WHEmptyPageViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D762053467AD16C4A46CD327 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E74E515EE863689283604D1 /* Pods-WHEmptyPageViewDemo.debug.xcconfig */,
+				47B00B5DDA1D9CFE01EB36BD /* Pods-WHEmptyPageViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E735C9E20200FB0000EE1A8 /* Build configuration list for PBXNativeTarget "WHEmptyPageViewDemo" */;
 			buildPhases = (
+				7E218FA1D3E11278488CB0D7 /* [CP] Check Pods Manifest.lock */,
 				3E735C6E20200FAF000EE1A8 /* Sources */,
 				3E735C6F20200FAF000EE1A8 /* Frameworks */,
 				3E735C7020200FAF000EE1A8 /* Resources */,
+				5B455304FD0892341D3DAB84 /* [CP] Embed Pods Frameworks */,
+				30514E81AB2F323EEFAAF59C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +380,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30514E81AB2F323EEFAAF59C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHEmptyPageViewDemo/Pods-WHEmptyPageViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B455304FD0892341D3DAB84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHEmptyPageViewDemo/Pods-WHEmptyPageViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E218FA1D3E11278488CB0D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHEmptyPageViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E735C6E20200FAF000EE1A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3E735C7A20200FAF000EE1A8 /* ViewController.m in Sources */,
+				3E735CD020201CCA000EE1A8 /* UIView+WHEmpty.m in Sources */,
+				3E735CC4202015D3000EE1A8 /* MainTabVC.m in Sources */,
+				3E735CAA20201276000EE1A8 /* WHNetWorkStatus.m in Sources */,
+				3E735CC720201632000EE1A8 /* HomeVC.m in Sources */,
+				3E735CAE20201296000EE1A8 /* DSReachability..m in Sources */,
+				3E735CB5202013E7000EE1A8 /* BaseVC.m in Sources */,
 				3E735C8520200FAF000EE1A8 /* main.m in Sources */,
+				3E735CCA2020163E000EE1A8 /* MineVC.m in Sources */,
 				3E735C7720200FAF000EE1A8 /* AppDelegate.m in Sources */,
+				3E735CBE20201450000EE1A8 /* FirstLevelVC.m in Sources */,
+				3E735CC120201461000EE1A8 /* SecondLevelVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +608,7 @@
 		};
 		3E735C9F20200FB0000EE1A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E74E515EE863689283604D1 /* Pods-WHEmptyPageViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +622,7 @@
 		};
 		3E735CA020200FB0000EE1A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B00B5DDA1D9CFE01EB36BD /* Pods-WHEmptyPageViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
